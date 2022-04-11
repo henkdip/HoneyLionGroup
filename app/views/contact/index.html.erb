@@ -1,0 +1,36 @@
+<div id="fh5co-wrapper">
+	<div id="fh5co-page">
+		<div id="fh5co-header">
+			<%= render 'home/header'%>	
+		</div>
+		<aside id="fh5co-hero" class="js-fullheight">
+			<div class="flexslider js-fullheight">
+				<ul class="slides">
+			   	<li style="background-image: url(/images/slide_1.jpg);">
+			   		<div class="overlay-gradient"></div>
+			   		<div class="container">
+			   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
+			   				<div class="slider-text-inner desc">
+			   					<h2 class="heading-section">TALK TO US</h2>
+			   					<p class="fh5co-lead">We'd love to hear from you</p>
+			   					<p class="fh5co-lead">Contact us on <i class="icon-phone2"></i> 071 870 4716</p>
+			   					<p class="fh5co-lead">E-mail us at <i class="icon-mail"></i><a href="#"> info@honeyliongroup.co.za</a></p>
+			   				</div>
+			   			</div>
+			   		</div>
+			   	</li>
+			  	</ul>
+		  	</div>
+		</aside>
+	</div>
+</div>
+<script type="text/javascript" src="/js/main.js">
+	$(function(){
+		mainMenu();
+		offcanvas();
+		mobileMenuOutsideClick();
+		contentWayPoint();
+		sliderMain();
+		fullHeight();
+	});
+</script>
